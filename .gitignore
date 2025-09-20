@@ -22,6 +22,9 @@ ExportedObj/
 *.opendb
 *.VC.db
 
+# Ignore .meta
+*.meta
+
 # Builds
 *.unitypackage
 *.unitypackage.meta
