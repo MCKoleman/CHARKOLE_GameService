@@ -1,5 +1,5 @@
-using CHARKOLE_GameService;
 using UnityEngine;
+using CharKole.GameService;
 
 public class GameInitializer : ServiceInitializer
 {

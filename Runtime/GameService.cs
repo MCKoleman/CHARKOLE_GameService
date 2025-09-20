@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace CHARKOLE_GameService
+namespace CharKole.GameService
 {
     public class GameService : MonoBehaviour
     {

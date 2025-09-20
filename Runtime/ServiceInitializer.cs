@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CHARKOLE_GameService
+namespace CharKole.GameService
 {
     public class ServiceInitializer : MonoBehaviour
     {
