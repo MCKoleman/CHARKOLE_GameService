@@ -1,7 +1,7 @@
-using CHARKOLE_GameService;
 using UnityEngine;
+using CharKole.GameServices;
 
-namespace CharKole.GameService.Samples
+namespace CharKole.GameServices.Samples
 {
     public class DataManager : GameService
     {

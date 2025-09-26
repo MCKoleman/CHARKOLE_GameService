@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace CharKole.GameService.Samples
+namespace CharKole.GameServices.Samples
 {
     [System.Serializable]
     public struct PlayerData

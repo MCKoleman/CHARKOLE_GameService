@@ -1,9 +1,9 @@
-using CHARKOLE_GameService;
 using UnityEngine;
+using CharKole.GameServices;
 
-namespace CharKole.GameService.Samples
+namespace CharKole.GameServices.Samples
 {
-    public static class GameServices
+    public static class Services
     {
         public static DataManager DataManager = ServiceLocator.Get<DataManager>();
     }

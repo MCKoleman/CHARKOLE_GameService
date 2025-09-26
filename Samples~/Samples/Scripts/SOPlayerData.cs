@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace CharKole.GameService.Samples
+namespace CharKole.GameServices.Samples
 {
     [CreateAssetMenu(fileName = "SOPlayerData", menuName = "Scriptable Objects/SOPlayerData")]
     public class SOPlayerData : ScriptableObject

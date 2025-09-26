@@ -1,7 +1,7 @@
-# CharKole GameService
+# CharKole GameServices
 
 ## Overview
-The CharKole GameService Unity package simplifies the workflow for initializing and using Singleton game managers.
+The CharKole GameServices Unity package simplifies the workflow for initializing and using Singleton game managers.
 By using services instead of multiple different Singletons, the order in which singletons are initialized can be defined manually
 
 ## Package Contents
@@ -18,8 +18,8 @@ By using services instead of multiple different Singletons, the order in which s
 ## Usage
 - GameService
 ```cs
-using CharKole.GameService;
 using UnityEngine;
+using CharKole.GameServices;
 
 public class MyCustomManager : GameService
 {
@@ -34,8 +34,8 @@ public class MyCustomManager : GameService
 
 - ServiceInitializer
 ```cs
-using CharKole.GameService;
 using UnityEngine;
+using CharKole.GameServices;
 
 public class GameInitializer : ServiceInitializer
 {
@@ -50,8 +50,8 @@ public class GameInitializer : ServiceInitializer
 
 - ServiceLocator
 ```cs
-using CharKole.GameService;
 using UnityEngine;
+using CharKole.GameServices;
 
 public static class GameServices
 {
