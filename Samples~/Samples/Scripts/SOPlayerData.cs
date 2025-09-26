@@ -1,13 +1,16 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "SOPlayerData", menuName = "Scriptable Objects/SOPlayerData")]
-public class SOPlayerData : ScriptableObject
+namespace CharKole.GameService.Samples
 {
-    [SerializeField]
-    private PlayerData playerData;
-
-    public PlayerData GetPlayerData()
+    [CreateAssetMenu(fileName = "SOPlayerData", menuName = "Scriptable Objects/SOPlayerData")]
+    public class SOPlayerData : ScriptableObject
     {
-        return playerData;
+        [SerializeField]
+        private PlayerData playerData;
+
+        public PlayerData GetPlayerData()
+        {
+            return playerData;
+        }
     }
 }

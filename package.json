@@ -1,6 +1,6 @@
 {
 	"name": "com.mckoleman.charkole.gameservice",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"displayName": "CharKole GameService",
 	"description": "Package for registering/locating GameServices. Part of the CharKole package group.",
 	"unity": "6000.0",

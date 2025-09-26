@@ -1,11 +1,14 @@
+using CHARKOLE_GameService;
 using UnityEngine;
-using CharKole.GameService;
 
-public class GameInitializer : ServiceInitializer
+namespace CharKole.GameService.Samples
 {
-    protected override void RegisterServices()
+    public class GameInitializer : ServiceInitializer
     {
-        base.RegisterServices();
-        RegisterService<DataManager>();
+        protected override void RegisterServices()
+        {
+            base.RegisterServices();
+            RegisterService<DataManager>();
+        }
     }
 }
