@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;
 
-namespace CharKole.GameService.Samples
+namespace CharKole.GameServices.Samples
 {
     public class UIPlayerData : MonoBehaviour
     {
@@ -14,7 +14,7 @@ namespace CharKole.GameService.Samples
 
         private void Update()
         {
-            PlayerData playerData = GameServices.DataManager.GetPlayerData();
+            PlayerData playerData = Services.DataManager.GetPlayerData();
             healthText.text = "Health: " + playerData.health.ToString();
             speedText.text = "Speed: " + playerData.speed.ToString();
             damageText.text = "Damage: " + playerData.damage.ToString();
