@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.3] - 2025-09-26
+
+### Changed
+- Added clean display names for assembly definitions.
+
 ## [0.1.2] - 2025-09-26
 
 ### Changed
