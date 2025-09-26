@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.4] - 2025-09-26
+
+### Removed
+- Dependency on TMPro.
+
 ## [0.1.3] - 2025-09-26
 
 ### Changed

@@ -1,16 +1,16 @@
 using UnityEngine;
-using TMPro;
+using UnityEngine.UI;
 
 namespace CharKole.GameServices.Samples
 {
     public class UIPlayerData : MonoBehaviour
     {
         [SerializeField]
-        private TextMeshProUGUI healthText;
+        private Text healthText;
         [SerializeField]
-        private TextMeshProUGUI speedText;
+        private Text speedText;
         [SerializeField]
-        private TextMeshProUGUI damageText;
+        private Text damageText;
 
         private void Update()
         {
