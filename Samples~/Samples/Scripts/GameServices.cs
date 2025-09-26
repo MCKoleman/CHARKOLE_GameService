@@ -1,7 +1,10 @@
+using CHARKOLE_GameService;
 using UnityEngine;
-using CharKole.GameService;
 
-public static class GameServices
+namespace CharKole.GameService.Samples
 {
-    public static DataManager DataManager = ServiceLocator.Get<DataManager>();
+    public static class GameServices
+    {
+        public static DataManager DataManager = ServiceLocator.Get<DataManager>();
+    }
 }

@@ -1,18 +1,21 @@
+using CHARKOLE_GameService;
 using UnityEngine;
-using CharKole.GameService;
 
-public class DataManager : GameService
+namespace CharKole.GameService.Samples
 {
-    [SerializeField]
-    private SOPlayerData playerData;
-
-    public override void Init()
+    public class DataManager : GameService
     {
-        base.Init();
-    }
+        [SerializeField]
+        private SOPlayerData playerData;
 
-    public PlayerData GetPlayerData()
-    {
-        return playerData.GetPlayerData();
+        public override void Init()
+        {
+            base.Init();
+        }
+
+        public PlayerData GetPlayerData()
+        {
+            return playerData.GetPlayerData();
+        }
     }
 }

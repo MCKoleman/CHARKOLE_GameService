@@ -1,9 +1,12 @@
 using UnityEngine;
 
-[System.Serializable]
-public struct PlayerData
+namespace CharKole.GameService.Samples
 {
-    public float health;
-    public float speed;
-    public float damage;
+    [System.Serializable]
+    public struct PlayerData
+    {
+        public float health;
+        public float speed;
+        public float damage;
+    }
 }
