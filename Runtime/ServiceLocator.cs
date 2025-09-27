@@ -13,7 +13,7 @@ namespace CharKole.GameServices
             Type type = typeof(T);
             if (services.ContainsKey(type))
             {
-                Debug.LogWarning($"[CHARKOLE_GameService.ServiceLocator]: Service {type} is already registered. Overwriting.");
+                Debug.LogWarning($"[CharKole.GameService.ServiceLocator]: Service {type} is already registered. Overwriting.");
             }
             services[type] = service;
         }
@@ -26,7 +26,7 @@ namespace CharKole.GameServices
                 return (T)service;
             }
 
-            throw new Exception($"[CHARKOLE_GameService.ServiceLocator]: Service of type {type} not found.");
+            throw new Exception($"[CharKole.GameService.ServiceLocator]: Service of type {type} not found.");
         }
 
         public static void Clear()
