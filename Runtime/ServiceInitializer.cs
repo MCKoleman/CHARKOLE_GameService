@@ -34,17 +34,17 @@ namespace CharKole.GameServices
             T service = this.GetComponentInChildren<T>();
             if (service == null)
             {
-                Debug.LogError($"[CHARKOLE_GameService.ServiceInitializer]: Service {typeof(T)} does not exist on ServiceInitializer.");
+                Debug.LogError($"[CharKole.GameService.ServiceInitializer]: Service {typeof(T)} does not exist on ServiceInitializer.");
                 return;
             }
 
             if (services.ContainsKey(service.GetType())) 
             {
-                Debug.LogWarning($"[CHARKOLE_GameService.ServiceInitializer]: Skipped registering service {service.name}, a service of the same type already exists.");
+                Debug.LogWarning($"[CharKole.GameService.ServiceInitializer]: Skipped registering service {service.name}, a service of the same type already exists.");
                 return;
             }
 
-            Debug.Log($"[CHARKOLE_GameService.ServiceInitializer]: Registering service {service.name}.");
+            Debug.Log($"[CharKole.GameService.ServiceInitializer]: Registering service {service.name}.");
             ServiceLocator.Register<T>(service);
             services.Add(service.GetType(), service);
         }
@@ -53,7 +53,7 @@ namespace CharKole.GameServices
         {
             foreach (GameService service in services.Values)
             {
-                Debug.Log($"[CHARKOLE_GameService.ServiceInitializer]: Initializing service {service.name}.");
+                Debug.Log($"[CharKole.GameService.ServiceInitializer]: Initializing service {service.name}.");
                 service.Init();
             }
         }

@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.6] - 2025-09-26
+
+### Changed
+- Renamed log package to CharKole.GameServices.
+
 ## [0.1.5] - 2025-09-26
 
 ### Changed
